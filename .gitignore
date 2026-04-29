@@ -1,6 +1,12 @@
-__pycache__/
-*.py[cod]
-.vscode/
-.pyc
-.pyo
+# Archivos de compilación y binarios
+*.bin
+*.elf
+*.hex
+*.o
+*.a
 
+# Directorios de entornos (PlatformIO o Arduino)
+.pio/
+build/
+.vscode/
+.cache/
