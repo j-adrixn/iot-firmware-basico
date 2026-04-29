@@ -9,3 +9,5 @@ while True:
     led.value(not led.value())
     print("ESP32 volando con antigravity...")
     time.sleep(1)
+
+
