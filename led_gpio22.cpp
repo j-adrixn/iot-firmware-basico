@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 const int led_22 = 22;
 
 void setup() {
