@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 // Definir el pin del LED (usualmente el 2 en el ESP32)
 const int ledPin = 2;
 
@@ -22,3 +20,4 @@ void loop() {
   // Esperar 1000 milisegundos (1 segundo)
   delay(1000);
 }
+
