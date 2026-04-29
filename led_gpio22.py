@@ -1,9 +1,10 @@
-import machine
+const int ledPin = 22; 
 
-led_22 = machine.Pin(22, machine.Pin.OUT)
+void setup() {
+  pinMode(ledPin, OUTPUT);
 
-led_22.value(1) 
+  digitalWrite(ledPin, HIGH); 
+}
 
-print("LED en el GPIO 22 encendido exitosamente!")
-
-
+void loop() {
+}
